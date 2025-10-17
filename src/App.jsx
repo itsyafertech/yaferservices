@@ -1,3 +1,4 @@
+import Typewriter from "./Typewriter";
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-gray-100 text-black font-sans scroll-smooth">
@@ -5,12 +6,13 @@ export default function App() {
       <section className="flex flex-col items-center justify-center min-h-screen text-center px-4 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-gray-100 via-white to-gray-50 opacity-70"></div>
         <div className="relative z-10">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-800 to-gray-600 animate-gradient-x">
+          <h1 className="text-5xl sm:text-5xl md:text-7xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-800 to-gray-600 animate-gradient-x">
             Yafer Services
           </h1>
-          <p className="text-base sm:text-lg md:text-2xl mb-6 text-gray-700 font-medium tracking-wide">
-            Trusted Midman • PC Builder • Tech Support • Buy & Sell Partner
-          </p>
+          <h1 className="text-2xl md:text-4xl font-extrabold text-center text-blue-500 mt-6">
+            <Typewriter />
+          </h1>
+
           <p className="max-w-2xl text-gray-600 leading-relaxed text-sm sm:text-base md:text-lg mx-auto px-2">
             I provide secure and transparent midman services for
             <span className="font-semibold text-gray-800">
