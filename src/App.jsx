@@ -41,30 +41,40 @@ export default function App() {
         id="rates"
         className="py-16 sm:py-20 px-4 sm:px-6 text-center bg-white"
       >
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-10 text-gray-800">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-gray-800">
           Midman Rates
         </h2>
-        <div className="max-w-md mx-auto border border-gray-200 rounded-3xl shadow-xl p-8 sm:p-10 bg-gradient-to-b from-white to-gray-50 hover:shadow-2xl transition-shadow duration-300">
-          <ul className="space-y-4 text-gray-700">
-            <li className="text-base sm:text-lg">
-              ₱1 – ₱1,000 →{" "}
-              <span className="font-semibold text-gray-900">₱30 fee</span>
-            </li>
-            <li className="text-base sm:text-lg">
-              ₱1,001 – ₱5,000 →{" "}
-              <span className="font-semibold text-gray-900">₱70 fee</span>
-            </li>
-            <li className="text-base sm:text-lg">
-              ₱5,001 – ₱10,000 →{" "}
-              <span className="font-semibold text-gray-900">₱120 fee</span>
-            </li>
-            <li className="text-base sm:text-lg">
-              ₱10,000+ →{" "}
-              <span className="font-semibold text-gray-900">3% of total</span>{" "}
-              (negotiable for regular clients)
-            </li>
-          </ul>
-          <p className="text-xs sm:text-sm text-gray-500 mt-6 italic">
+
+        <div className="max-w-lg mx-auto border border-gray-200 rounded-3xl shadow-xl p-8 sm:p-10 bg-gradient-to-b from-white to-gray-50 hover:shadow-2xl transition-shadow duration-300">
+          {/* Header Row */}
+          <div className="grid grid-cols-2 border-b border-gray-200 pb-4 mb-4">
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-700 text-left">
+              Price Range
+            </h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-700 text-right">
+              Fee
+            </h3>
+          </div>
+
+          {/* Rates */}
+          <div className="grid grid-cols-2 gap-y-3 text-gray-700 text-base sm:text-lg">
+            <span className="text-left">₱1 – ₱1,000</span>
+            <span className="text-right font-semibold text-gray-900">₱30</span>
+
+            <span className="text-left">₱1,001 – ₱5,000</span>
+            <span className="text-right font-semibold text-gray-900">₱70</span>
+
+            <span className="text-left">₱5,001 – ₱10,000</span>
+            <span className="text-right font-semibold text-gray-900">₱120</span>
+
+            <span className="text-left">₱10,000+</span>
+            <span className="text-right font-semibold text-gray-900">
+              3% of total
+            </span>
+          </div>
+
+          {/* Note */}
+          <p className="text-xs sm:text-sm text-gray-500 mt-8 italic">
             💸 GCash Only • Transparent Process • Proof Every Step
           </p>
         </div>
