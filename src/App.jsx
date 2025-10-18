@@ -94,7 +94,7 @@ export default function App() {
           {[
             {
               step: "1️⃣",
-              title: "Group Chat Setup",
+              title: "Group Chat Setup (Call or Video Call)",
               desc: "A group chat with buyer and seller is created for transparency.",
             },
             {
