@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const TypewriterText = () => {
   return (
-    <h1 className="text-2xl md:text-4xl font-extrabold text-center bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mt-6 mb-6">
+    <h1 className="text-2xl md:text-4xl font-extrabold text-center bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mb-4">
       <Typewriter
         words={[
           "Trusted Midman",

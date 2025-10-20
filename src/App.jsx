@@ -8,7 +8,7 @@ export default function App() {
         <h1 className="text-5xl sm:text-5xl md:text-7xl font-extrabold mb-4 text-white">
           Yafer Services
         </h1>
-        <h1 className="text-2xl md:text-4xl font-extrabold text-blue-400 mt-6">
+        <h1 className="text-2xl md:text-4xl font-extrabold text-blue-400">
           <Typewriter />
         </h1>
 
